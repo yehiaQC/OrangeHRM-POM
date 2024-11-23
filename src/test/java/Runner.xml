@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/yahmed/IdeaProjects/OrangeHRM/src/test">
+        <classes>
+            <class name="Baseclass"/>
+            <class name="LoginLocators"/>
+            <class name="LoginTest"/>
+            <class name="PimLocators"/>
+            <class name="PimTest"/>
+            <class name="LeaveLocators"/>
+            <class name="LeaveTest"/>
+            <class name="BuzzLocators"/>
+            <class name="BuzzTest"/>
+
+        </classes>
+    </test>
+</suite>
