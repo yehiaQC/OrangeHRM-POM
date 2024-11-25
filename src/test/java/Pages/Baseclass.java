@@ -1,18 +1,15 @@
+package Pages;
+
 import com.assertthat.selenium_shutterbug.core.Capture;
 import com.assertthat.selenium_shutterbug.core.Shutterbug;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
-import javax.swing.*;
-import java.io.File;
 import java.time.Duration;
-import java.util.Set;
 
 public class Baseclass {
 
@@ -31,12 +28,12 @@ public class Baseclass {
         Shutterbug.shootPage(driver, Capture.FULL, true).save("C://Users/yahmed/IdeaProjects/OrangeHRM/src/test/resources/beforelogin.png");
     }
 
-    /*
+
     @AfterTest
     public void AfterTest(){
         driver.quit();
     }
-    */
+
 
 
 }

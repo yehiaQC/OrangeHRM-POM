@@ -1,3 +1,6 @@
+package Pages;
+
+import Locators.LoginLocators;
 import com.assertthat.selenium_shutterbug.core.Capture;
 import com.assertthat.selenium_shutterbug.core.Shutterbug;
 import org.testng.Assert;

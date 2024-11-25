@@ -1,4 +1,4 @@
-// write in pom & do at least 1 -ve secanrio for each LoginTest or functionallty
+// write in pom & do at least 1 -ve secanrio for each Pages.LoginTest or functionallty
         // do normal actions on elements
         // take screenshots - done
         // upload files & download
