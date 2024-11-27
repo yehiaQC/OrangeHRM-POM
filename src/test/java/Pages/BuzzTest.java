@@ -1,8 +1,10 @@
 package Pages;
 
+import org.testng.annotations.Test;
+
 public class BuzzTest extends Baseclass {
-/*
-    @Test (priority = 8)
+
+    @Test(priority = 8)
     // posting a new post
     public void openbuzzpageandpost(){
         Locators.BuzzLocators.openbuzzpage();
@@ -11,6 +13,6 @@ public class BuzzTest extends Baseclass {
         Locators.BuzzLocators.textareapost.sendKeys("post");
         Locators.BuzzLocators.sharebtn.click();
     }
-*/
+
 
 }

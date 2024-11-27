@@ -1,9 +1,12 @@
 package Pages;
 
+import org.openqa.selenium.Keys;
+import org.testng.annotations.Test;
+
 public class LeaveTest extends Baseclass{
-/*
+
 // assigning leave to employee
-@Test (priority = 9)
+@Test(priority = 9)
     public void assignleave() throws InterruptedException {
     Locators.LeaveLocators.locateleavepage();
     Locators.LeaveLocators.leavepagebtn.click();
@@ -29,6 +32,6 @@ public class LeaveTest extends Baseclass{
     Locators.LeaveLocators.aftersubmitbtn();
     Locators.LeaveLocators.approvebtn.click();
 
- */
+}
 }
 

@@ -6,7 +6,10 @@
             <class name="Pages.Baseclass"/>
             <class name="Locators.LoginLocators"/>
             <class name="Pages.LoginTest"/>
-            
+            <class name="Locators.PimLocators"/>
+            <class name="Pages.PimTest"/>
+            <class name="Locators.BuzzLocators"/>
+            <class name="Pages.BuzzTest"/>
 
         </classes>
     </test>
